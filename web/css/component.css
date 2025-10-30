@@ -1,0 +1,14 @@
+.btn-1{
+    border: 1px solid var(--baked-blue-500-main);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    color: var(--baked-blue-500-main);
+    border-radius: 2.5rem;
+}
+.btn-1:hover{
+    background-color: var(--baked-blue-500-main);
+    border: 1px solid var(--baked-blue-500-main);
+    color: #FFF;
+
+}

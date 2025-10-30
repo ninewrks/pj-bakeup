@@ -1,0 +1,52 @@
+@media(max-width:768px){
+    .pc-slide{display: none;}
+    .tab-slide{display: none;}
+    .mo-slide{display: block;}
+    .mo-slide {width: 100%;};
+    main {
+    margin-top: 75px;
+}
+/* cake */
+    .banner-cake-img {
+    display: flex;
+    align-items: self-end;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    aspect-ratio: 365/580;
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(../img/banner-cake.jpg) center/cover no-repeat;
+    padding: 2rem;
+    border-radius: 8px;
+}
+    .banner-cake{
+    margin-bottom: var(--space-3x-large);
+    overflow: hidden;
+    }
+    .banner-cake-t-mo{
+    display: block;
+    color: #fff;
+}
+    .banner-cake-t{
+    display: none; 
+}
+/* off */
+    .off-store{
+        flex-direction: column-reverse;
+        gap: var(--space-x-large);
+    }
+    .off-store figure{
+    width: 100%;
+    flex-shrink: 0;
+    aspect-ratio: 365/200;
+    line-height: 0;
+}
+.off-store p {
+    margin-bottom: var(--space-x-large);
+}
+.off-store h3 {
+    margin-bottom: var(--space-normal);
+}
+     
+}
