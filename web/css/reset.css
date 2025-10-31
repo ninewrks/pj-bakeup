@@ -17,3 +17,6 @@ table{
     border-collapse: collapse;
 }
 img{max-width: 100%;}
+u {
+    text-decoration: none;
+}
