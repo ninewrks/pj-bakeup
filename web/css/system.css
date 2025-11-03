@@ -3,7 +3,15 @@
         max-width: 1920px;
         margin:0 auto ;
     }
+    main {
+    margin-top: 75px;
+    transition: margin-top 0.6s ease 0s;
 }
+    /* header .fold~main{
+    margin-top: 44px;
+} */
+}
+
 :root{
     /* basic size 1rem  */
     --basic-font-pc:20px;
@@ -102,10 +110,23 @@ p{
         width: auto;
         margin: 0 2rem;
     }
+      main {
+    margin-top: 73px;
+}
+
+    header.fold~main{
+        margin-top: 94px;
+    }
+    header.fold~main{
+        margin-top: 74px;
+    }
 }
 @media(max-width: 786px){
     .common-frame{
         width: auto;
         margin: 0 1rem;
     }
+    main {
+    margin-top: 75px;
+}
 }

@@ -40,13 +40,8 @@
 .mo-slide{
     display: none;
 }
-main {
-    margin-top: 75px;
-    transition: margin-top 0.6s ease 0s;
-}
-/* header .fold~main{
-    margin-top: 44px;
-} */
+
+
 .signature-slider{
     width: 100%;
 }

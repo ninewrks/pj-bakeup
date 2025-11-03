@@ -23,8 +23,8 @@ header:after{
     width: 100%;
     left: 0;
     top: 75px;
-    border: 1px solid #00000000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.281);
+    /* border: 1px solid #00000000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.281); */
 }
 
 .header-frame{

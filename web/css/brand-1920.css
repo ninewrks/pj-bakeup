@@ -1,0 +1,40 @@
+.story0{
+    border: 1px solid red;
+    padding-top: var(--space-3x-large);
+    display: flex;
+    align-items: center;
+    gap: var(--space-normal);
+    margin-bottom: 6rem;
+}
+.story0 .brand-txt h1{
+    font-size: 4rem;
+}
+.brand-txt h1{
+    margin-bottom: 3rem;
+}
+.brand-txt h2{
+    margin-bottom: 3rem;
+}
+
+.sub-title{
+    text-align: center;
+}
+.story1{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    gap: var(--space-normal);
+}
+.story2{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    gap: var(--space-normal);
+    flex-direction: row-reverse;
+}
+.story3{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    gap: var(--space-normal);
+}
