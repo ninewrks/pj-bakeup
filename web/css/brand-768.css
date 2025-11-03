@@ -1,0 +1,30 @@
+.brand-txt {
+    text-align: center;
+}
+.story0 {
+    flex-direction: column;
+}
+.story2 {
+    flex-direction: column;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+    gap: var(--space-2x-large);
+}
+.story2 figure {
+    flex: 1;
+    width: 100%;
+}
+.story2 img{
+    width: 100%;
+}
+.story1 {
+    flex-direction: column-reverse
+}
+.story3 {
+    flex-direction: column-reverse;
+}
+@media (max-width:300px) {
+    .story0 .brand-txt h1 {
+    font-size: 3.5rem;
+}
+}

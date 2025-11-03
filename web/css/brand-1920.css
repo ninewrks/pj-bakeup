@@ -1,40 +1,51 @@
 .story0{
-    border: 1px solid red;
     padding-top: var(--space-3x-large);
     display: flex;
     align-items: center;
     gap: var(--space-normal);
     margin-bottom: 6rem;
 }
+/* 사진 글 1:1 */
+figure{
+    flex: 1;
+}
+.brand-txt{
+    flex: 1;
+}
 .story0 .brand-txt h1{
     font-size: 4rem;
+    color: var(--baked-blue-500-main);
+}
+.sub-title{
+    margin-bottom: 3.5rem;
 }
 .brand-txt h1{
     margin-bottom: 3rem;
+    font-size: 3rem;
+    color: var(--baked-blue-500-main);
 }
 .brand-txt h2{
     margin-bottom: 3rem;
 }
-
+.brand-txt > p:first-of-type{margin-bottom: 1rem;}
 .sub-title{
     text-align: center;
 }
 .story1{
-    border: 1px solid red;
-    display: flex;
-    align-items: center;
-    gap: var(--space-normal);
-}
-.story2{
-    border: 1px solid red;
     display: flex;
     align-items: center;
     gap: var(--space-normal);
     flex-direction: row-reverse;
 }
+.story2{
+    display: flex;
+    align-items: center;
+    gap: var(--space-3x-large);
+
+}
 .story3{
-    border: 1px solid red;
     display: flex;
     align-items: center;
     gap: var(--space-normal);
+    flex-direction: row-reverse;
 }
