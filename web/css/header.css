@@ -27,9 +27,9 @@ header:after{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.281); */
 }
 
-.header-frame{
+.header-frame {
     width: auto;
-    margin: 0 43px;
+    margin: 0 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -95,10 +95,10 @@ header:hover{
     .pc-header{
         display: none;
     }
-    .smart-divice-header {
+.smart-divice-header {
     display: block;
     background-color: var(--baked-blue-500-main);
-    /* height: 75px; */
+    height: 75px;
     position: fixed;
     width: 100%;
     left: 0;
@@ -166,10 +166,11 @@ header:hover{
         align-items: center;
         padding:1rem 0;
     }
-    .smart-divice-header .logo{
-        display: flex;
-        justify-content: center;
-    }
+    .smart-divice-header .logo {
+    padding-top: 0.5rem;
+    /* display: flex; */
+    /* justify-content: center; */
+}
     .btn-close {
     display: flex;
     justify-content: end;

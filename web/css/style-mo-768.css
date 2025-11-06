@@ -3,7 +3,9 @@
     .tab-slide{display: none;}
     .mo-slide{display: block;}
     .mo-slide {width: 100%;};
-
+    .banner-cake-t{
+    display: none; 
+}
 /* cake */
     .banner-cake-img {
     display: flex;
@@ -22,13 +24,12 @@
     margin-bottom: var(--space-3x-large);
     overflow: hidden;
     }
-    .banner-cake-t-mo{
+.banner-cake-t-mo {
+    padding: 1rem;
     display: block;
     color: #fff;
 }
-    .banner-cake-t{
-    display: none; 
-}
+
 /* off */
     .off-store{
         flex-direction: column-reverse;

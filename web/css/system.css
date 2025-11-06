@@ -55,6 +55,7 @@
 }
     
 html{
+    font-size: var(--basic-font-pc);
     line-height: var(--base-line-height);
 }
 h1{
@@ -114,6 +115,7 @@ p{
      /* / 보여줄 최대 줄 수 / */
     text-overflow: ellipsis;       
     /* / 말줄임 표기(보조)  */
+    overflow: hidden;
 
 }
 .ln2{
@@ -125,6 +127,7 @@ p{
      /* / 보여줄 최대 줄 수 / */
     text-overflow: ellipsis;       
     /* / 말줄임 표기(보조)  */
+    overflow: hidden;
 
 }
 .ln3{
@@ -136,9 +139,12 @@ p{
      /* / 보여줄 최대 줄 수 / */
     text-overflow: ellipsis;       
     /* / 말줄임 표기(보조)  */
-            overflow: hidden;
+    overflow: hidden;
 }
 @media(max-width: 1440px){
+    html{
+        font-size: var(--basic-font-tab);
+    }
     .common-frame{
         width: auto;
         margin: 0 2rem;
@@ -155,11 +161,14 @@ p{
     }
 }
 @media(max-width: 786px){
+    html{
+        font-size: var(--basic-font-mobile);
+    }
     .common-frame{
         width: auto;
         margin: 0 1rem;
     }
     main {
-    margin-top: 75px;
+    margin-top: 73px;
 }
 }

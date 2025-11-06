@@ -1,0 +1,10 @@
+@media(max-width:768px){
+.event-ul{
+    grid-template-columns: repeat(2,1fr);
+}
+}
+@media(max-width:300px){
+.event-ul{
+    grid-template-columns: repeat(1,1fr);
+}
+}
