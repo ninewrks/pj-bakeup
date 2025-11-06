@@ -47,7 +47,7 @@
     --space-3x-large:6rem;
 
     /* semantic color */
-    --color-inactive: #D9D9D9;
+    --color-inactive: #8d8d8d;
     
     /* divice width */
     --device-tab : 1440px;
@@ -140,6 +140,23 @@ p{
     text-overflow: ellipsis;       
     /* / 말줄임 표기(보조)  */
     overflow: hidden;
+}
+.slider-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  /* 슬라이드처럼 멈춤 */
+  /* scroll-snap-type: x mandatory;  */
+  -webkit-overflow-scrolling: touch; /* iOS 부드러운 스크롤 */
+  white-space: nowrap;
+  display: flex;
+}
+
+.slider-track {
+  display: flex;
+}
+em{
+    font-style: normal;
+    color: var(--baked-blue-500-main);
 }
 @media(max-width: 1440px){
     html{

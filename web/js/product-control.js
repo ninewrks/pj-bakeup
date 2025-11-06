@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded",()=>{
                 <h3>${item.pnameKo}</h3>
                 <h4><em>${item.pnameEn}</em></h4>
                 <p class="ln3">${item.pdesc}</p>
-                <p class="price">${item.pprice}원</p>
+                <p class="price">${toWon(item.pprice)}</p>
             </a>
         </li>`
     })
