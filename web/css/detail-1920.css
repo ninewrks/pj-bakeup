@@ -1,7 +1,7 @@
 .detail-1{
     display: flex;
     gap: var(--space-normal);
-    margin-top: 10rem auto var(--space-3x-large) var(--space-3x-large);
+    margin-top: 10rem
 }
 .detail-1>section{
     width: 50%;
@@ -77,4 +77,109 @@
     border: 1px solid var(--baked-blue-500-main);
     background-color: var(--baked-blue-500-main);
     color: #fff;
+}
+.sticky-menu {
+    display: flex;
+    gap: var(--space-normal);
+    /* margin-bottom: var(--space-2x-large); */
+    position: sticky;
+    z-index: 5;
+    left: 0;
+    top: 35px;
+    background: #fff;
+    height: 90px;
+    align-items: flex-end;
+}
+.sticky-menu>li{
+    flex: 1;
+    text-align: center;
+}
+.sticky-menu>li a{
+    padding: var(--space-x-small) 0;
+    display: block;
+    border-bottom: 1px solid var(--baked-blue-500-main);
+    font-size: 0.9rem;
+    background: #fff;
+}
+.detail-2 .title-product {
+    /* margin-top: var(--space-3x-large); */
+    margin-bottom: var(--space-2x-large);
+    padding-top: var(--space-2x-large);
+}
+.info-list{
+    display: flex;
+    gap: var(--space-2x-large);
+}
+.info-list>section{
+    flex: 1;
+}
+.info-list-1 h3{
+    margin-bottom: var(--space-normal);
+}
+.info-list-1 h3+p{
+    margin-bottom: var(--space-normal);
+}
+.info-list-2 table{
+    border-top: 2px solid var(--baked-blue-500-main);
+    width: 100%;
+}
+.info-list-2 th{
+    border-bottom: 1px solid #000;
+    width: 50%;
+    text-align: left;
+    padding: var(--space-x-small) 0;
+}
+.info-list-2 td{
+    border-bottom: 1px solid #000;
+    width: 50%;
+    padding: var(--space-x-small) 0;
+}
+.info-list-2 caption{
+    text-align: right;
+    font-size: 0.8rem;
+    margin-bottom: var(--space-x-small);
+}
+.list-review>li{
+    display: flex;
+    gap: var(--space-normal);
+    border-bottom: 1px solid #e0e0e0;
+    padding: var(--space-2x-large);
+}
+.list-review-1{
+    /* flex: 3 ; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-x-small);
+}
+.list-review-2{
+    /* flex: 9 ; */
+    width: 75%;
+}
+.list-review-2 h4{
+    margin-bottom: var(--space-normal);
+}
+
+.product .slider-container.review-slider{
+    justify-content: flex-start;
+}
+.review-track{
+    display: flex;
+    gap: var(--space-normal);
+}
+.review-track li{
+    width: 416px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.review-track li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.review-slider{
+    margin-bottom: var(--space-normal);
+}
+#dt1,#dt2,#dt3{
+    padding-top: 10rem;
 }

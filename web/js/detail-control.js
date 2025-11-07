@@ -30,6 +30,19 @@ document.addEventListener("DOMContentLoaded",()=>{
                     <a href="#" class="btn-buy">구매하기</a>
                 </div>
             </section>`
+            
+            const smallThumbImgs = document.querySelectorAll(".thumb-small-list img")
+            const thumbBig = document.querySelector(".thumb-big img")
+
+            smallThumbImgs.forEach(imgtag=>{
+                imgtag.addEventListener("click",()=>{
+                    // alert("imgtag.getAttribute")
+                    let src = imgtag.getAttribute("src")
+                    let alt = imgtag.getAttribute("alt")
+                    thumbBig.setAttribute("src",src)
+                    thumbBig.setAttribute("alt",alt)
+                })
+            })
 })
 
 

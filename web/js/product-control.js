@@ -19,5 +19,21 @@ document.addEventListener("DOMContentLoaded",()=>{
         </li>`
     })
     list.innerHTML = res
+
+    // 하트 아이콘 클릭 이벤트
+    list.querySelectorAll(".heart").forEach(heart=>{
+        heart.addEventListener("click",(e)=>{
+            e.preventDefault()
+            e.stopPropagation()
+            const heartImg = heart.querySelector("img")
+            if(heartImg.src.includes("line")){
+                heartImg.src = "./img/product/fill.svg"
+                heartImg.alt = "좋아요 선택함"
+            }else{
+                heartImg.src = "./img/product/line.svg"
+                heartImg.alt = "좋아요 선택안함"
+            }
+        })
+    })
         
 })

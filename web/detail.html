@@ -34,6 +34,8 @@
     <link rel="stylesheet" href="./css/header.css?v=1">
     <link rel="stylesheet" href="./css/footer.css?v=1">
 
+    <script src="./js/header.js"></script>
+    <script src="./js/toWon.js"></script>
     
     
     <!-- swiper js -->
@@ -49,10 +51,15 @@
     <link rel="stylesheet" href="./css/detail-1440.css">
     <link rel="stylesheet" href="./css/detail-768.css">
 
+    <link rel="stylesheet" href="./css/product-1920.css">
+    <link rel="stylesheet" href="./css/product-1440.css">
+    <link rel="stylesheet" href="./css/product-768.css">
+
     <!-- 상품정보 -->
      <script src="./js/product.js"></script>
      <script src="./js/getQueryParam.js"></script>
      <script src="./js/detail-control.js"></script>
+     <script src="./js/product-control.js"></script>
 </head>
 <body>
     <div class="header-wrap"></div>
@@ -84,6 +91,249 @@
                     <a class="btn-buy" href="#">구매하기</a>
                 </div>
             </section> -->
+        </div>
+        <div class="common-frame detail-2 product">
+            <ul class="sticky-menu">
+                <li><a href="#dt1">많이 찾는 제품</a></li>
+                <li><a href="#dt2">영양 성분</a></li>
+                <li><a href="#dt3">리뷰</a></li>
+            </ul>
+            <h1 class="title-product" id="dt1">많이 찾는 제품</h1>
+             <ul class="list-product">
+                 <!-- <li>
+                     <a href="#">
+                         <figure>
+                             <img src="./img/product/p1.jpg" alt="">
+                             <span class="heart"><img src="./img/product/line.svg" alt=""></span>
+                         </figure>
+                         <h3>클래식 마카롱 세트</h3>
+                         <h4><em>Classic Macaron Set, 6pcs</em></h4>
+                         <p class="ln3">라즈베리·피스타치오·초콜릿 등 6가지 풍미를 담은 달콤한 미니 디저트 세트</p>
+                         <p class="price">12,000원</p>
+                     </a>
+                 </li>
+                                  <li>
+                     <a href="#">
+                         <figure>
+                             <img src="./img/product/p1.jpg" alt="">
+                             <span class="heart"><img src="./img/product/line.svg" alt=""></span>
+                         </figure>
+                         <h3>클래식 마카롱 세트</h3>
+                         <h4><em>Classic Macaron Set, 6pcs</em></h4>
+                         <p class="ln3">라즈베리·피스타치오·초콜릿 등 6가지 풍미를 담은 달콤한 미니 디저트 세트</p>
+                         <p class="price">12,000원</p>
+                     </a>
+                 </li>
+                                  <li>
+                     <a href="#">
+                         <figure>
+                             <img src="./img/product/p1.jpg" alt="">
+                             <span class="heart"><img src="./img/product/line.svg" alt=""></span>
+                         </figure>
+                         <h3>클래식 마카롱 세트</h3>
+                         <h4><em>Classic Macaron Set, 6pcs</em></h4>
+                         <p class="ln3">라즈베리·피스타치오·초콜릿 등 6가지 풍미를 담은 달콤한 미니 디저트 세트</p>
+                         <p class="price">12,000원</p>
+                     </a>
+                 </li>
+                                  <li>
+                     <a href="#">
+                         <figure>
+                             <img src="./img/product/p1.jpg" alt="">
+                             <span class="heart"><img src="./img/product/line.svg" alt=""></span>
+                         </figure>
+                         <h3>클래식 마카롱 세트</h3>
+                         <h4><em>Classic Macaron Set, 6pcs</em></h4>
+                         <p class="ln3">라즈베리·피스타치오·초콜릿 등 6가지 풍미를 담은 달콤한 미니 디저트 세트</p>
+                         <p class="price">12,000원</p>
+                     </a>
+                 </li>
+                                  <li>
+                     <a href="#">
+                         <figure>
+                             <img src="./img/product/p1.jpg" alt="">
+                             <span class="heart"><img src="./img/product/line.svg" alt=""></span>
+                         </figure>
+                         <h3>클래식 마카롱 세트</h3>
+                         <h4><em>Classic Macaron Set, 6pcs</em></h4>
+                         <p class="ln3">라즈베리·피스타치오·초콜릿 등 6가지 풍미를 담은 달콤한 미니 디저트 세트</p>
+                         <p class="price">12,000원</p>
+                     </a>
+                 </li>
+                                  <li>
+                     <a href="#">
+                         <figure>
+                             <img src="./img/product/p1.jpg" alt="">
+                             <span class="heart"><img src="./img/product/line.svg" alt=""></span>
+                         </figure>
+                         <h3>클래식 마카롱 세트</h3>
+                         <h4><em>Classic Macaron Set, 6pcs</em></h4>
+                         <p class="ln3">라즈베리·피스타치오·초콜릿 등 6가지 풍미를 담은 달콤한 미니 디저트 세트</p>
+                         <p class="price">12,000원</p>
+                     </a>
+                 </li>
+                                  <li>
+                     <a href="#">
+                         <figure>
+                             <img src="./img/product/p1.jpg" alt="">
+                             <span class="heart"><img src="./img/product/line.svg" alt=""></span>
+                         </figure>
+                         <h3>클래식 마카롱 세트</h3>
+                         <h4><em>Classic Macaron Set, 6pcs</em></h4>
+                         <p class="ln3">라즈베리·피스타치오·초콜릿 등 6가지 풍미를 담은 달콤한 미니 디저트 세트</p>
+                         <p class="price">12,000원</p>
+                     </a>
+                 </li>
+                                  <li>
+                     <a href="#">
+                         <figure>
+                             <img src="./img/product/p1.jpg" alt="">
+                             <span class="heart"><img src="./img/product/line.svg" alt=""></span>
+                         </figure>
+                         <h3>클래식 마카롱 세트</h3>
+                         <h4><em>Classic Macaron Set, 6pcs</em></h4>
+                         <p class="ln3">라즈베리·피스타치오·초콜릿 등 6가지 풍미를 담은 달콤한 미니 디저트 세트</p>
+                         <p class="price">12,000원</p>
+                     </a>
+                 </li> -->
+            </ul>
+            <h1 id="dt2">영양정보</h1>
+            <div class="info-list">
+                <section class="info-list-1">
+                    <h3>클래식 마카롱 세트</h3>
+                    <em>Classic Macaron Set, 6pcs</em>
+                    <p>라즈베리·피스타치오·초콜릿 등 6가지 <br> 풍미를 담은 달콤한 미니 디저트 세트</p>
+                </section>
+                <section class="info-list-2">
+                    <table>
+                        <caption>1회 제공량 (6개/120g 기준)</caption>
+                        <tr>
+                            <th>열량(kcal)</th>
+                            <td>540kcal</td>
+                        </tr>
+                        <tr>
+                            <th>나트륨 (Sodium)</th>
+                            <td>75mg</td>
+                        </tr>
+                        <tr>
+                            <th>탄수화물 (Total Carbohydrate) </th>
+                            <td>66g</td>
+                        </tr>
+                        <tr>
+                            <th>당류 (Sugars)</th>
+                            <td>54g</td>
+                        </tr>
+                        <tr>
+                            <th>지방 (Total Fat)</th>
+                            <td>28g</td>
+                        </tr>
+                        <tr>
+                            <th>트랜스지방 (Trans Fat)</th>
+                            <td>0g</td>
+                        </tr>
+                        <tr>
+                            <th>포화지방 (Saturated Fat)</th>
+                            <td>12g</td>
+                        </tr>
+                        <tr>
+                            <th>콜레스테롤 (Cholesterol)</th>
+                            <td>45mg</td>
+                        </tr>
+
+                        <tr>
+                            <th>단백질 (Protein)</th>
+                            <td>8g</td>
+                        </tr>      
+                    </table>
+                </section>               
+            </div>
+            <h1 class="title-product" id="dt3">REVIEW</h1>
+            <ul class="list-review">
+                <li>
+                    <section class="list-review-1">
+                        <h3> claire.j</h3>
+                        <div class="like">
+                            <img src="./img/star.svg" alt="좋아요 별">
+                            <img src="./img/star.svg" alt="좋아요 별">
+                            <img src="./img/star.svg" alt="좋아요 별">
+                            <img src="./img/star.svg" alt="좋아요 별">
+                            <img src="./img/star.svg" alt="좋아요 별">
+                        </div>
+                        <p class="date">2025.10.10</p>
+                    </section>
+                    <section class="list-review-2">
+                        <h4>클래식 마카롱 세트</h4>
+                        <div class="slider-container review-slider">
+                            <ul class="review-track">
+                                <li><img src="./img/detail/review-thumb1.jpg" alt="리뷰썸네일 이미지"></li>
+                                <li><img src="./img/detail/review-thumb2.jpg" alt="리뷰썸네일 이미지"></li>
+                                <li><img src="./img/detail/review-thumb3.jpg" alt="리뷰썸네일 이미지"></li>
+                                <li><img src="./img/detail/review-thumb4.jpg" alt="리뷰썸네일 이미지"></li>
+                                <li><img src="./img/detail/review-thumb5.jpg" alt="리뷰썸네일 이미지"></li>
+                            </ul>
+                        </div>
+                        <p class="review-desc">
+                            상자 뚜껑을 여는 순간 색감이 너무 예뻐서 잠시 감탄했습니다. 한입 베어물면 겉은 바삭하게 부서지고, 속은 부드럽게 녹아듭니다. 라즈베리의 산뜻함과 피스타치오의 고소함이 입안에서 번갈아 어울려요. 차분한 오후에 어울리는 달콤한 한 세트였습니다.
+                        </p>
+                    </section>
+                </li>
+                <li>
+                    <section class="list-review-1">
+                        <h3>breadncoffee</h3>
+                        <div class="like">
+                            <img src="./img/star.svg" alt="좋아요 별">
+                            <img src="./img/star.svg" alt="좋아요 별">
+                            <img src="./img/star.svg" alt="좋아요 별">
+                            <img src="./img/star.svg" alt="좋아요 별">
+                            <img src="./img/star.svg" alt="좋아요 별">
+                        </div>
+                        <p class="date">2025.10.06</p>
+                    </section>
+                    <section class="list-review-2">
+                        <h4>클래식 마카롱 세트</h4>
+                        <div class="slider-container review-slider">
+                            <ul class="review-track">
+                                <li><img src="./img/detail/reveiw-thumb06.jpg" alt="리뷰썸네일 이미지"></li>
+                                <li><img src="./img/detail/reveiw-thumb07.jpg" alt="리뷰썸네일 이미지"></li>
+                                <li><img src="./img/detail/reveiw-thumb08.jpg" alt="리뷰썸네일 이미지"></li>
+                                <li><img src="./img/detail/reveiw-thumb09.jpg" alt="리뷰썸네일 이미지"></li>
+                                <li><img src="./img/detail/reveiw-thumb10.jpg" alt="리뷰썸네일 이미지"></li>
+                            </ul>
+                        </div>
+                        <p class="review-desc">
+                             처음 한입 베어물었을 때의 부드러움이 인상적이었습니다. 바닐라 마카롱은 은은하게 달고, 초콜릿은 깊은 풍미가 느껴졌어요. 라즈베리는 상큼하게 입맛을 살려줘서 조합이 잘 맞습니다. 조금 더 진한 맛을 선호하는 제 입맛에는 초콜릿이 살짝 약하게 느껴졌지만, 전반적으로 균형이 좋아요. 차와 함께 먹으면 단맛이 더 부드럽게 느껴지고, 포장도 고급스러워서 선물용으로도 괜찮습니다. Bake Up의 디저트는 전반적으로 “자극적이지 않지만 기억에 남는 맛”이라는 인상이 강하네요. 다음엔 다른 메뉴도 주문해볼 예정입니다.
+                        </p>
+                    </section>
+                </li>
+                <li>
+                    <section class="list-review-1">
+                        <h3>hello_dessert</h3>
+                        <div class="like">
+                            <img src="./img/star.svg" alt="좋아요 별">
+                            <img src="./img/star.svg" alt="좋아요 별">
+                            <img src="./img/star.svg" alt="좋아요 별">
+                            <img src="./img/star.svg" alt="좋아요 별">
+                            <img src="./img/star.svg" alt="좋아요 별">
+                        </div>
+                        <p class="date">2025.10.04</p>
+                    </section>
+                    <section class="list-review-2">
+                        <h4>클래식 마카롱 세트</h4>
+                        <div class="slider-container review-slider">
+                            <ul class="review-track">
+                                <li><img src="./img/detail/review-thumb11.jpg" alt="리뷰썸네일 이미지"></li>
+                                <li><img src="./img/detail/review-thumb12.jpg" alt="리뷰썸네일 이미지"></li>
+                                <li><img src="./img/detail/review-thumb13.jpg" alt="리뷰썸네일 이미지"></li>
+                                <li><img src="./img/detail/review-thumb14.jpg" alt="리뷰썸네일 이미지"></li>
+                                <!-- <li><img src="./img/detail/review-thumb15.jpg" alt="리뷰썸네일 이미지"></li> -->
+                            </ul>
+                        </div>
+                        <p class="review-desc">
+                             제품 사진을 보고 주문했는데 실물이 훨씬 예뻐서 놀랐어요. 색이 부드럽고, 마카롱 껍질의 질감이 섬세하게 살아 있습니다. 한입 크기라 먹기 편하고, 맛이 강하지 않아 누구에게나 어울릴 것 같아요. 조금 달긴 하지만 홍차와 함께 마시니 훨씬 균형이 맞습니다. 포장도 세심하게 되어 있어서 선물용으로 딱이었어요. 디저트를 통해 누군가의 하루를 기분 좋게 만들어주는 브랜드 같아요. 재구매 의사 있습니다.
+                        </p>
+                    </section>
+                </li>
+            </ul>
         </div>
     </main>
     <div class="footer-wrap"></div>
