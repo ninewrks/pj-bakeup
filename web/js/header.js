@@ -1,54 +1,40 @@
+// header.js
 function header(){
-document.addEventListener("DOMContentLoaded",()=>{
 
-        let btnAllMenu = document.querySelector(".btn-all-menu")
-        let hiddenGnb = document.querySelector(".hidden-gnb")
-        let btnClose = document.querySelector(".btn-close")
+  // 모바일 전체 메뉴 열고 닫기
+  let btnAllMenu = document.querySelector(".btn-all-menu");
+  let hiddenGnb = document.querySelector(".hidden-gnb");
+  let btnClose = document.querySelector(".btn-close");
 
-        // 전체메뉴열기
-        btnAllMenu.addEventListener("click",()=>{
-            hiddenGnb.classList.add("on")
-        })
+  if (btnAllMenu && hiddenGnb && btnClose) {
+    // 전체메뉴 열기
+    btnAllMenu.addEventListener("click", () => {
+      hiddenGnb.classList.add("on");
+    });
 
-        // 전체메뉴닫기
-        btnClose.addEventListener("click",()=>{
-            hiddenGnb.classList.remove("on")
-        })
+    // 전체메뉴 닫기
+    btnClose.addEventListener("click", () => {
+      hiddenGnb.classList.remove("on");
+    });
+  }
 
-        let moblieGnbLi = document.querySelectorAll(".gnb-smart>li")
-        moblieGnbLi.forEach((li,index)=>{
-            li.addEventListener("click",()=>{
-                li.classList.toggle("on")
-            })
-        })
+  // 모바일 gnb 아코디언
+  let moblieGnbLi = document.querySelectorAll(".gnb-smart>li");
+  moblieGnbLi.forEach((li) => {
+    li.addEventListener("click", () => {
+      li.classList.toggle("on");
+    });
+  });
 
-    //     // 마우스 휠을 올리거나 내릴 때 사용하는 소스코드
-    // let lastScrollTop = 0
-    // window.addEventListener("scroll",()=>{
-    //     let scrollTop = window.pageYOffset || document.documentElement.scrollTop // 브라우저의 호환성을 생각하여 스크롤바가 내려온 길이를 계산
-
-    //     if(scrollTop < lastScrollTop){
-    //         // 마우스 휠을 위로 굴렸을 때
-    //         console.log("마우스 휠 위로 굴림")
-    //         btnTop.classList.remove("fold")
-    //     }else{
-    //         // 마우스 휠을 아래로 굴렸을 때
-    //         console.log("마우스 휠 아래로 굴림")
-    //         btnTop.classList.add("fold")
-    //     }
-    //     lastScrollTop = scrollTop
-    // })
-
-    let gnb = document.querySelector(".gnb")
-    let header = document.querySelector("header")
-    gnb.addEventListener("moudeenter",()=>{
-        header.classList.remove("fold")
-    })
-    header.addEventListener("mouseleave",()=>{
-        header.classList.add("fold")
-    })
-})
+  // gnb hover 시 header fold 클래스 토글
+  let gnb = document.querySelector(".gnb");
+  let headerEl = document.querySelector("header");
+  if (gnb && headerEl) {
+    gnb.addEventListener("mouseenter", () => {
+      headerEl.classList.remove("fold");
+    });
+    headerEl.addEventListener("mouseleave", () => {
+      headerEl.classList.add("fold");
+    });
+  }
 }
-
-
-
